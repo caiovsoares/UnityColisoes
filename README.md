@@ -24,7 +24,6 @@ Este projeto tem como intuito demonstrar como funciona a lógica de uma fórmula
  <br />
  <sub><b>Caio Vinicius Amancio Soares</b></sub>
 </a>
- <br />
- <br />
+ <br>
  
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:caio.vasoares@gmail.com)](mailto:caio.vasoares@gmail.com)
