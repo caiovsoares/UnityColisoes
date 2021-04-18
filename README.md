@@ -21,9 +21,9 @@ Este projeto tem como intuito demonstrar como funciona a lógica de uma fórmula
 
 <a href="https://github.com/caiovsoares">
  <img style="border-radius: 50%;" src="https://github.com/caiovsoares.png" width="100px;" alt="Caio Vinicius Amancio Soares"/>
- <br />
  <sub><b>Caio Vinicius Amancio Soares</b></sub>
 </a>
+ <br />
  <br />
  
 [![Gmail Badge](https://img.shields.io/badge/-Gmail-c14438?style=for-the-badge&logo=Gmail&logoColor=white&link=mailto:caio.vasoares@gmail.com)](mailto:caio.vasoares@gmail.com)
