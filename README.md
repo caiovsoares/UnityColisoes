@@ -21,6 +21,7 @@ Este projeto tem como intuito demonstrar como funciona a lógica de uma fórmula
 
 <a href="https://github.com/caiovsoares">
  <img style="border-radius: 50%;" src="https://github.com/caiovsoares.png" width="100px;" alt="Caio Vinicius Amancio Soares"/>
+ <br />
  <sub><b>Caio Vinicius Amancio Soares</b></sub>
 </a>
  <br />
