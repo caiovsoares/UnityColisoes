@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class FormColors : MonoBehaviour
 {
     private Color trueColor = Color.green;
-    private Color falseColor = Color.white;
+    private Color falseColor = Color.gray;
 
     [SerializeField]
     private Text tCon1, tCon2, tCon3, tCon4, limpar;

@@ -9,19 +9,6 @@ public class DadosCanvas : MonoBehaviour
     [SerializeField]
     private TextMesh textX, textY, textHeight, textWidth, objetoTexto;
 
-
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     public void updatePos(Transform objeto)
     {
         Vector3 corrector = new Vector3(objeto.localScale.x, -objeto.localScale.y, 0);

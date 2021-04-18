@@ -11,7 +11,7 @@ public class ControleCanvas : MonoBehaviour
     private DadosCanvas dadosCanvas;
     private FormColors formColors;
     [SerializeField]
-    private Text textX, textY, textHeigth, textWidth;
+    private Text textX, textY, textHeigth, textWidth, textColidiu;
     [SerializeField]
     private Slider sliderX, sliderY, sliderHeigth, sliderWidth;
     [SerializeField]
@@ -41,6 +41,9 @@ public class ControleCanvas : MonoBehaviour
         //detecta colisao e troca as cores
         bool[] condicoes = detectaColisao.detectaColisao();
         formColors.updateColor(condicoes);
+        bool colidiu = condicoes[0] && condicoes[1] && condicoes[2] && condicoes[3];
+        textColidiu.text = colidiu ? "COLISÃO DETECTADA" : "";
+        textColidiu.color = colidiu ? Color.green : Color.red;
 
         //atualiza os dados no canvas do objeto e a posição do mesmo
         dadosCanvas.setX(sliderX.value);

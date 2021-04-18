@@ -12,17 +12,6 @@ public class DetectaColisao : MonoBehaviour
     private Vector3 pos1, pos2, sca1, sca2;
 
     private bool con1, con2, con3, con4;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
 
     public bool[] detectaColisao()
     {
