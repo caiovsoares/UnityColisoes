@@ -16,9 +16,10 @@ public class FormColors : MonoBehaviour
 
     private void Start()
     {
-        limpar.gameObject.SetActive(false);
+        limparClick();
     }
 
+    //atualiza as cores das condições na tela baseado em um array de bools recebido
     public void updateColor(bool[] cond)
     {
         tCon1.color = cond[0] ? trueColor : falseColor;
@@ -27,6 +28,7 @@ public class FormColors : MonoBehaviour
         tCon4.color = cond[3] ? trueColor : falseColor;
     }
 
+    //funções para setar qual condição esta ativa visualmente no momento
     public void con1Click()
     {
         foreach (GameObject iCon in iCons)

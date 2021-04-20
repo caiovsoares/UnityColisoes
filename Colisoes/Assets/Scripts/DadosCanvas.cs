@@ -11,15 +11,15 @@ public class DadosCanvas : MonoBehaviour
 
     public void updatePos(Transform objeto)
     {
-        Vector3 corrector = new Vector3(objeto.localScale.x, -objeto.localScale.y, 0);
-
-        objetoTexto.transform.position = objeto.position + corrector;
-        textX.transform.position = objeto.position + new Vector3(-objeto.localScale.x, objeto.localScale.y+0.3f, 0) + corrector;
-        textY.transform.position = objeto.position + new Vector3(-objeto.localScale.x, objeto.localScale.y, 0) + corrector;
-        textHeight.transform.position = objeto.position + new Vector3(-objeto.localScale.x, 0, 0) + corrector;
-        textWidth.transform.position = objeto.position + new Vector3(0, -objeto.localScale.y, 0) + corrector;
+        //posicionamento é baseado no Anchor usado por cada textMesh
+        objetoTexto.transform.position = objeto.position + new Vector3(objeto.localScale.x, -objeto.localScale.y, 0) / 2;
+        textX.transform.position = objeto.position + new Vector3(0, 0.3f, 0);
+        textY.transform.position = objeto.position;
+        textHeight.transform.position = objeto.position + new Vector3(0,-objeto.localScale.y,0)/2;
+        textWidth.transform.position = objeto.position + new Vector3(objeto.localScale.x/2, -objeto.localScale.y, 0);
     }
 
+    //Funções que setam os valores dos textMeshs
     public void setX(float value) => textX.text = "X: " + Math.Round(value, 2);
     public void setY(float value) => textY.text = "Y: " + Math.Round(value, 2);
     public void setHeight(float value) => textHeight.text = "Altura: " + Math.Round(value, 2);

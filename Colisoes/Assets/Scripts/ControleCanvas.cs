@@ -35,6 +35,7 @@ public class ControleCanvas : MonoBehaviour
 
 
         //seta a posição e escala do objeto
+        //a posição no eixo Y é invertida pois em Lua o eixo Y cresce de cima para baixo, ao contrário de Unity
         objeto.transform.position = new Vector3(sliderX.value, -sliderY.value, 0);
         objeto.transform.localScale = new Vector3(sliderWidth.value, sliderHeigth.value, 1);
 
