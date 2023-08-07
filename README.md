@@ -7,7 +7,7 @@
 </div>
 
 ## **💻 Projeto**
-Este projeto tem como intuito demonstrar como funciona a lógica de uma fórmula simples de detecção de colisões entre dois objetos em Love for Lua.
+Este projeto tem como intuito demonstrar como funciona a lógica de uma fórmula simples de detecção de colisões entre dois objetos em um plano bidimensional.
 
 ## **🔖 Layout**
 <p align="center">
